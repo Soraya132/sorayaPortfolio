@@ -58,8 +58,8 @@
     @apply flex gap-5 justify-start items-center rounded-lg bg-transparent border outline-none  hover:transition-all hover:duration-700 border-white/20 placeholder:text-white placeholder:font-light py-3 px-3 text-lg w-full;
   }
   .about__image {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("/thumb1.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/about.jpg");
     background-position: top;
     background-size: cover;
     border-radius: 1rem;
@@ -74,7 +74,7 @@
     @apply py-4 lg:border-l border-dashed flex flex-col gap-6 px-2 md:px-10 flex-1 lg:overflow-y-auto 2xl:text-xl;
   }
   .about__modal_base-container {
-    @apply flex flex-col lg:flex-row overflow-y-auto;
+    @apply flex flex-col lg:flex-row overflow-y-auto overflow-x-hidden;
   }
   .work__modal-container {
     @apply flex flex-col px-6 pt-10 pb-6 md:px-12 overflow-y-auto 2xl:gap-10;

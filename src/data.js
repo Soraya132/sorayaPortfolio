@@ -1,5 +1,5 @@
-import { FaMobile, FaLinkedin } from "react-icons/fa";
-import { RiRedPacketLine } from "react-icons/ri";
+import {  FaLinkedin } from "react-icons/fa";
+import { RiRedPacketLine,RiGithubLine } from "react-icons/ri";
 import { IoMdLocate } from "react-icons/io";
 
 //  contact information
@@ -7,12 +7,12 @@ export const ContactInfo = [
   {
     icon: <IoMdLocate />,
     info: "kabul, Afghanistan",
-    page: "#",
+    page: "",
   },
   {
-    icon: <FaMobile />,
-    info: "+93782615615",
-    page: "tel:0093782615615",
+    icon: <RiGithubLine />,
+    info: "Soraya132",
+    page: "https://github.com/Soraya132",
   },
   {
     icon: <RiRedPacketLine />,
@@ -104,6 +104,14 @@ export const experienceContent = {
 //  portfolio  page
 export const images = [
   {
+    image: "/animeCanvas.png",
+    name: "AnimeCanvas",
+    siteLink: "https://anime-canvas.vercel.app/",
+    githubLink: "https://github.com/Soraya132/animeCanvas",
+    frameworks:["Next.js","Tailwind CSS","Sanity","TypeScript"],
+    explanation: `Crafted with the power of Next.js, Sanity, and Tailwind CSS, AnimeCanvas is a testament to modern web development. The integration of server-side filtering ensures a seamless user journey, allowing art enthusiasts to explore and enjoy Yousuf's masterpieces effortlessly `,
+  },
+  {
     image: "/cryptotrackercoinflip.netlify.app_ (2).png",
     name: "Coinflip",
     siteLink: "https://cryptotrackercoinflip.netlify.app/",
@@ -119,14 +127,7 @@ export const images = [
     frameworks:["React.js","Tailwind CSS","Vite"],
     explanation: `Nikee is a sleek and modern web application designed to provide users with an immersive experience in exploring and discovering the latest Nike sneakers. Built using React.js, Tailwind CSS, and Vite, the Nikee app combines cutting-edge technologies to deliver a seamless and visually appealing platform.`,
   },
-  {
-    image: "/animeCanvas.png",
-    name: "AnimeCanvas",
-    siteLink: "https://anime-canvas.vercel.app/",
-    githubLink: "https://github.com/Soraya132/animeCanvas",
-    frameworks:["Next.js","Tailwind CSS","Sanity","TypeScript"],
-    explanation: `Crafted with the power of Next.js, Sanity, and Tailwind CSS, AnimeCanvas is a testament to modern web development. The integration of server-side filtering ensures a seamless user journey, allowing art enthusiasts to explore and enjoy Yousuf's masterpieces effortlessly `,
-  },
+ 
   {
     image: "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/llcq9eiv3ney5tkxgdtu.jpg",
     name: "Task Manager",
@@ -146,4 +147,4 @@ export const images = [
 ];
 
 export const downloadableLink =
-  "https://drive.google.com/uc?export=download&id=1qxC38Qb_CA6dmpcVHbaNB4Lh7RJ40_T-";
+  "https://drive.google.com/uc?export=download&id=1BfPRHMI4yCMvGfRmCltMq_Thvyt59kCs";

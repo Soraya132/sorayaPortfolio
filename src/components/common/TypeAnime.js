@@ -5,7 +5,7 @@ const TypeAnime = () => {
     <div>
       <span className="text-white">Creative </span>{" "}
       <TypeAnimation
-        sequence={["Freelancer", "Developer"]}
+        sequence={["Freelancer", "Web Developer"]}
         wrapper="span"
         speed={0}
         style={{ display: "inline-block" }}

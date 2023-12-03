@@ -8,7 +8,7 @@ const ContactInformation = () => {
           return (
             <Link
               href={item.page}
-              target="_blank"
+              target={item.page === '' ? '' : '_blank'}
               className="about__get__in_touch border-b border-dashed border-accent hover:border-white/60 pb-1"
               key={index + item.info}
             >

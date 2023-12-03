@@ -20,7 +20,7 @@ function Home() {
             </h1>
             {/* subtitle */}
             <h4 className="text-white texl-lg sm:text-3xl 2xl:text-4xl">
-              <TypingContainer/>
+              Web Developer and Freelancer
             </h4>
             {/* btn */}
             <div className="flex">

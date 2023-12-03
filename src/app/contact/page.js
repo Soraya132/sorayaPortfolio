@@ -20,8 +20,8 @@ const Contact = () => {
             return (
               <Link
                 href={item.page}
-                className="get__in_touch group"
-                target="_blank"
+                className="get__in_touch group overflow-x-auto no-scrollbar"
+                target={item.page === '' ? '' : '_blank'}
                 key={index + item.info}
               >
                 <div className="text-accent">{item.icon}</div>

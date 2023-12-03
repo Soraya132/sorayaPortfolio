@@ -14,7 +14,7 @@ const Modal = ({ children, showModal, setShowModal }) => {
       className="fixed top-0 right-0 left-0 bottom-0
                          bg-primary text-white w-full flex flex-col items-center pt-10 2xl:pt-20 z-50 overflow-y-hidden"
     >
-      <div className="modal max-w-[1000px]" >
+      <div className="modal max-w-[1000px] " >
         <div className="flex justify-end pr-4 pt-2">
           <button
             onClick={handleClick}

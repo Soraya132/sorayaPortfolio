@@ -64,7 +64,7 @@ const About = () => {
               <div>
                 <div className="lg:w-20 lg:h-20 w-52 h-52 rounded-full mx-auto">
                   <Image
-                    src="/thumb1.jpg"
+                    src="/about.jpg"
                     alt="profile photo"
                     width={200}
                     height={200}
