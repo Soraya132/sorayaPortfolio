@@ -140,7 +140,7 @@ export const images = [
     image: "/portfolio.png",
     name: "My Portfolio",
     siteLink: "/",
-    githubLink: "www.github.com",
+    githubLink: "https://github.com/Soraya132/sorayaPortfolio",
     frameworks:["Next.js","Tailwind CSS","Framer Motion"],
     explanation: `My personal portfolio website is a reflection of my journey and expertise in the world of web development. Crafted with Next.js, Framer Motion, and Tailwind CSS, the website is not just a showcase of my projects but an interactive experience that introduces visitors to my skills, achievements, and passion for creating exceptional web applications. `,
   },
