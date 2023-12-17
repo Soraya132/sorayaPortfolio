@@ -15,6 +15,8 @@
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
   background-color: #f13024;
+  width: 18px;
+  height: 18px;
 }
 .swiper-slide {
   height: auto !important ;

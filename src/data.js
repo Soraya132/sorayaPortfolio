@@ -147,4 +147,4 @@ export const images = [
 ];
 
 export const downloadableLink =
-  "https://drive.google.com/uc?export=download&id=1BfPRHMI4yCMvGfRmCltMq_Thvyt59kCs";
+  "https://drive.google.com/uc?export=download&id=1cGPLT5TY2ClPCL-WHMNPx4_TE4Dw-pwo";
